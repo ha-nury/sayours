@@ -3,15 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>소리 나는 버튼</title>
+    <title>여러 소리 버튼</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>소리 나는 버튼 예제</h1>
-    <button id="playSoundButton">소리 재생!</button>
+    <h1>여러 소리 나는 버튼 예제</h1>
 
-    <audio id="myAudio" src="sound.mp3" preload="auto"></audio>
+    <button class="soundButton" data-sound-src="sound1.mp3">소리 1 재생</button>
 
+    <button class="soundButton" data-sound-src="sound2.mp3">소리 2 재생</button>
+
+    <button class="soundButton" data-sound-src="sound3.mp3">소리 3 재생</button>
+
+    <audio id="audioPlayer" preload="auto"></audio> 
+    
     <script src="script.js"></script>
 </body>
 </html>
