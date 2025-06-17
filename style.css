@@ -6,13 +6,13 @@ body {
     align-items: center;
     min-height: 100vh;
     margin: 0;
-    background-color: #ff3333;
+    background-color: #ffffff;
 }
 
 button {
     padding: 15px 30px;
     font-size: 20px;
-    background-color: #ffffff;
+    background-color: #ff3333;
     color: white;
     border: none;
     border-radius: 5px;
